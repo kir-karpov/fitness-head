@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #FFFFFF
+    color: #fff;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 181.818px;
+height: 100px;
+flex-shrink: 0;
+padding-left: 230px;
+    
+}
+.header-text {
+  color: var(--buttons-text-color-default, #292929);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    /* padding-left: 15px; /* Добавляем отступ влево */
+/* padding-right: 15px; */ 
+letter-spacing: 2px;
+}
+.nav {
+  padding-left: 475px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav li {
+white-space: nowrap;
+    padding: 11px 32px 11px 32px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
